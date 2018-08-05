@@ -3,16 +3,27 @@ languageCode = "en-us"
 title = "hdwih"
 theme = "navigator-hugo"
 
-[[menu.main]]
-    name = "Home"
-    url = ""
-    weight = 1
-
-[[menu.main]]
-    name = "Who We Are"
-    url = "about/"
-    weight = 2
-
+[[menu.nav]]
+        name    = "About"
+        url     = "/about"
+        weight  = 2
+    [[menu.nav]]
+        name    = "Service"
+        url     = "/service"
+        weight  = 3
+    [[menu.nav]]
+        name    = "Portfolio"
+        url     = "/portfolio"
+        weight  = 4
+    [[menu.nav]]
+        name    = "Blog"
+        url     = "/blog"
+        weight  = 5
+    [[menu.nav]]
+        name    = "Contact"
+        url     = "/contact"
+        weight  = 6
+    
 
 # Site params
 
@@ -30,7 +41,7 @@ theme = "navigator-hugo"
         who_we_are_title="Who We are!"
         who_we_are_summary="HDWIH LLC is a certified Woman-owned Small Business management consulting firm that provides creates and executes strategic human resources management, organizational development, recruitment, executive search and staff augmentation to business, organizations, and overnments globally. We draw on our extensive pool of expert leaders in the United States, Africa, the Caribbean and Latin America.  We are  committed to excellence and creating innovative and flexible solutions for our clients.  Additionally, HDWIH’s principals and staff are multilingual with language capacities in French, Spanish, and Haitian Creole."
         service_title="Service"
-        service_summary="Providing good service means taking the time to listen.  Our streamlined human resources delivery responds to client’s needs.  We are committed to excellence and creating innovative and flexible solutions for our clients.  HDWIH’s principals bring over 45 years of experience with public and private sector and including"
+        service_summary="nothing"
         professionalism_title="Professionalism"
         professionalism_summary="HDWIH LLC provides high quality management services.  HDWIH LLC. will work with your organization every step of the way to make sure you received the services you need. HDWIH LLC. is client-oriented, and we maintain strict confidentiality"
         what_we_do_title="What we do!"
