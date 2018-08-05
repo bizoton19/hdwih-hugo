@@ -1,4 +1,4 @@
-baseURL = "https://happy-perlman-37c2d7.netlify.com/"
+baseURL = "http://localhost:1313/" #"https://happy-perlman-37c2d7.netlify.com/"
 languageCode = "en-us"
 title = "hdwih"
 theme = "navigator-hugo"
@@ -34,6 +34,11 @@ theme = "navigator-hugo"
     [params.intro]
     home_banner="img/home.jpeg"
     title="high quality management services."
+    summary="We are known to adapting to ambiguous environments. We are  committed to excellence and creating innovative and flexible solutions for our clients.  HDWIH’s principals bring over 45 years of experience with public and private sector."
+    btnUrl="/About"
+    button="true"
+    btnText="Learn More..."
+
     
     
     # home page front summary section

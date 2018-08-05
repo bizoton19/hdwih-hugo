@@ -54,7 +54,7 @@ a:focus, a:hover {
 
 .btn-main, .btn-main-sm {
   background-color: #21D6BF;
-  background-image: linear-gradient(100deg, #f9643d, #fe2a77);
+  background-image: linear-gradient(100deg, #585555, #585555);
   color: #fff;
   display: inline-block;
   font-size: 14px;
@@ -572,7 +572,7 @@ a:focus, a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: #1f2532;
+  background: #fff;
 }
 
 @media (max-width: 480px) {
@@ -582,7 +582,7 @@ a:focus, a:hover {
 }
 
 .hero-area .block {
-  color: #fff;
+  color: #1f2532;
   padding-left: 30px;
 }
 

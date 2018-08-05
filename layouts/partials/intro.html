@@ -14,11 +14,14 @@
                     {{ with .Site.Params.intro.title}}
                         <h2>{{ . }}</h2>
                     {{ end }}
+                    {{ with .Site.Params.intro.summary}}
+                        <p>{{ . }}</p>
+                    {{ end }}
                     
-                    {{ if .Site.Params.hero.button }}
+                    {{ if .Site.Params.intro.button }}
                         <ul class="list-inline wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".7s">
                             <li class="list-inline-item">
-                                <a href="{{ with .Site.Params.hero.btnURL }}{{.}}{{ end }}" target="_blank" class="btn btn-main">{{ with .Site.Params.hero.btnText }}{{.}}{{ end }}</a>
+                                <a href="{{ with .Site.Params.intro.btnURL }}{{.}}{{ end }}" target="_blank" class="btn btn-main">{{ with .Site.Params.intro.btnText }}{{.}}{{ end }}</a>
                             </li>
                         </ul>
                     {{ end }}
