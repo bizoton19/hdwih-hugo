@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313/" #"https://happy-perlman-37c2d7.netlify.com/"
+baseURL = "https://happy-perlman-37c2d7.netlify.com/" #"http://localhost:1313/" 
 languageCode = "en-us"
 title = "hdwih"
 theme = "navigator-hugo"
