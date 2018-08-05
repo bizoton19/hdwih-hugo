@@ -1,0 +1,56 @@
+baseURL = "http://localhost:1313/"
+languageCode = "en-us"
+title = "hdwih"
+theme = "navigator-hugo"
+
+[[menu.main]]
+    name = "Home"
+    url = ""
+    weight = 1
+
+[[menu.main]]
+    name = "Who We Are"
+    url = "about/"
+    weight = 2
+
+
+# Site params
+
+[params]
+    home="Home"
+    logo="img/Hdwih_Logo.png"
+
+    [params.intro]
+    home_banner="img/home.jpeg"
+    title="high quality management services."
+    
+    
+    # home page front summary section
+    [params.intro_sections]
+        who_we_are_title="Who We are!"
+        who_we_are_summary="HDWIH LLC is a certified Woman-owned Small Business management consulting firm that provides creates and executes strategic human resources management, organizational development, recruitment, executive search and staff augmentation to business, organizations, and overnments globally. We draw on our extensive pool of expert leaders in the United States, Africa, the Caribbean and Latin America.  We are  committed to excellence and creating innovative and flexible solutions for our clients.  Additionally, HDWIH’s principals and staff are multilingual with language capacities in French, Spanish, and Haitian Creole."
+        service_title="Service"
+        service_summary="Providing good service means taking the time to listen.  Our streamlined human resources delivery responds to client’s needs.  We are committed to excellence and creating innovative and flexible solutions for our clients.  HDWIH’s principals bring over 45 years of experience with public and private sector and including"
+        professionalism_title="Professionalism"
+        professionalism_summary="HDWIH LLC provides high quality management services.  HDWIH LLC. will work with your organization every step of the way to make sure you received the services you need. HDWIH LLC. is client-oriented, and we maintain strict confidentiality"
+        what_we_do_title="What we do!"
+        what_we_do_summary="We are dedicated to understanding your business, to being flexible and holistic in our approach by responding to our customer’s changing needs so that we can develop the value we bring to each relationship. We are known to adapting to ambiguous environments."
+    
+     
+     # Contact Section
+    [params.contact]
+        enable  = true
+        topTitle= "DROP US A NOTE"
+        title   = "Contact Us."
+        subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
+        address = "14/05, Stockhome <br> Victori Palace , United States"
+        phone   = "(03) 9283 2617"
+        fax     = "+61 3827 3590"
+        facebook= "https://www.facebook.com/"
+        twitter = "https://twitter.com/"
+        linkedin= "https://www.linkedin.com/"
+        dribbble= "https://dribbble.com/"
+        instagram= "https://www.instagram.com/"
+        mapLatitude = "51.507351"
+        mapLongitude= "-0.127758"
+        mapMarker   = "images/marker.png"

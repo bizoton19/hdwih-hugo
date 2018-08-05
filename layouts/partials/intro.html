@@ -1,0 +1,46 @@
+
+{{ "<!-- Hero Area -->" | safeHTML }}
+<section class="hero-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                
+                    <img class="img-fluid rounded" src="{{ with .Site.Params.intro.home_banner}}{{.}}{{end}}" alt="home_banner">
+                   
+                
+            </div>
+            <div class="col-md-6">
+                <div class="block">
+                    {{ with .Site.Params.intro.title}}
+                        <h2>{{ . }}</h2>
+                    {{ end }}
+                    
+                    {{ if .Site.Params.hero.button }}
+                        <ul class="list-inline wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".7s">
+                            <li class="list-inline-item">
+                                <a href="{{ with .Site.Params.hero.btnURL }}{{.}}{{ end }}" target="_blank" class="btn btn-main">{{ with .Site.Params.hero.btnText }}{{.}}{{ end }}</a>
+                            </li>
+                        </ul>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="about-2 section bg-gray" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-5">
+                    {{ with .Site.Params.intro_sections.who_we_are_title}}
+                        <h2>{{ . }}</h2>
+                    {{ end }}
+                </div>
+                <div class="col-12 col-md-7">
+                    {{ with .Site.Params.intro_sections.who_we_are_summary }}
+                        <p>{{ . | markdownify }}</p>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </section>
+    
