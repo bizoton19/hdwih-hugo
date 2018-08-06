@@ -1,21 +1,27 @@
 enable    : true
-title     : We care about our work
+title     : Core Capabilities & Clients
 description: >
   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae dolorem, saepe ab, optio obcaecati id asperiores. Ab ullam qui architecto at eos distinctio debitis, libero reprehenderit excepturi rem ut odit est nam magni ratione necessitatibus, quod eaque, eius minima tempora deleniti illum aliquam! Perferendis optio dolorum blanditiis sapiente aperiam quaerat.
-image     : images/about/about-1.jpg
+image     : img/ihrisuganda.jpg
 servicelist:
-  - name    : Creative Designers
-  - name    : Genius Developers
-  - name    : Growth Hackers
-  - name    : Marketing Masterminds
+  - name    : Global Professional and Administrative Services
+  - name    : Global Human Resources and Institutional Support
+  - name    : Human Resources Management
+  - name    : Resiliency Training
 clientLogo:
-  - image   : images/client-logo/logo1.png
-  - image   : images/client-logo/logo-2.png
-  - image   : images/client-logo/logo-3.png
-  - image   : images/client-logo/logo-4.png
-  - image   : images/client-logo/logo-5.png
-  - image   : images/client-logo/logo1.png
-  - image   : images/client-logo/logo-2.png
-  - image   : images/client-logo/logo-3.png
-  - image   : images/client-logo/logo-4.png
-  - image   : images/client-logo/logo-5.png
+  - image   : img/clients/Abt logo.svg
+  - image   : img/clients/Cardno.jpg
+  - image   : img/clients/Creative Logo.png
+  - image   : img/clients/Department of State.png
+  - image   : img/clients/Dts.jpg
+  - image   : img/clients/IBTCI-LOGO-2012.jpg
+  - image   : img/clients/IMC Logo.png
+  - image   : img/clients/MHAVE.jpg
+  - image   : img/clients/MTC_Logo_Primary.png
+  - image   : img/clients/NRCE Logo.jpg
+  - image   : img/clients/Palladium Logo.jpg
+  - image   : img/clients/Paltech Logo.jpg
+  - image   : img/clients/QED logo.svg
+  - image   : img/clients/RTI Logo.png
+  - image   : img/clients/Social Impact Logo.png
+  

@@ -1,25 +1,24 @@
 enable    : true
 topTite   : LITTLE MORE BRIEF
 title     : About Us.
-subtitle  : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!
+subtitle  : A Woman-Owned Small Business, HDWIH LLC. is led by President and CEO, Arielle Jean-Baptiste.  An experienced international development expert with over 25 years’ experience in Global Human Resources Management, Arielle brings her diverse experience working successfully in the US and in dozens of overseas countries
+image     : img/Ariele.jpg
+
 tabItem   :
-  - id        : philosophy
-    title     : Our Philosophy
-    heading   : We Create Designs and technology
+  - id        : history
+    title     : Our History
+    heading   : Creating Innovative & Flexible Solutions
     content   : >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat voluptate molestias, quaerat quo natus dolor harum voluptatibus modi dicta ducimus. <br> <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quae officia earum dolore est quaerat cupiditate voluptatibus id, magni alias veniam voluptate, libero explicabo, distinctio atque!
-    image     : images/company/company-image.jpg
+      Prior to the founding of HDWIH LLC, Arielle built a comprehensive portfolio range of human resources  management experience, holding senior roles at the U.S. Agency for International Development (USAID) and many of its implementing partners. Her diverse background also includes international proposal recruitment, overseas project coordination and international new business development.
+
+    image     : img/Global-Human-Resources-Busines-copy.png
 
   - id        : mission
     title     : Mission
     heading   : Our Mission
     content   : >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat voluptate molestias, quaerat quo natus dolor harum voluptatibus modi dicta ducimus. <br> <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quae officia earum dolore est quaerat cupiditate voluptatibus id, magni alias veniam voluptate, libero explicabo, distinctio atque!
-    image     : images/company/company-image-2.jpg
+      Providing good service means taking the time to listen.  Our mission is to work with your organization every step of the way to make sure you received the services you need.  HDWIH LLC is client-oriented, and we maintain strict confidentiality.
 
-  - id        : vision
-    title     : Vision
-    heading   : Our Vision
-    content   : >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat voluptate molestias, quaerat quo natus dolor harum voluptatibus modi dicta ducimus. <br> <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quae officia earum dolore est quaerat cupiditate voluptatibus id, magni alias veniam voluptate, libero explicabo, distinctio atque!
-    image     : images/company/company-image-3.jpg
+    image     : img/HRM Pictures.jpg
+
+

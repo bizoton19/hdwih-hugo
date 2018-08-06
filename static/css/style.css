@@ -53,8 +53,8 @@ a:focus, a:hover {
 }
 
 .btn-main, .btn-main-sm {
-  background-color: #21D6BF;
-  background-image: linear-gradient(100deg, #585555, #585555);
+  color: #f0326b;
+  background-color: #fe2a77;
   color: #fff;
   display: inline-block;
   font-size: 14px;
@@ -468,7 +468,7 @@ a:focus, a:hover {
 
 .navigation {
   transition: .3s all;
-  background: #1f2532;
+  background: #e7e8eb;
 }
 
 .navigation .navbar-nav > li.active a {
@@ -572,7 +572,7 @@ a:focus, a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: #fff;
+  background: #1f2532;
 }
 
 @media (max-width: 480px) {
@@ -582,7 +582,7 @@ a:focus, a:hover {
 }
 
 .hero-area .block {
-  color: #1f2532;
+  color: #fff;
   padding-left: 30px;
 }
 
