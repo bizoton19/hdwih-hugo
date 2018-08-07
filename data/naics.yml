@@ -1,0 +1,29 @@
+enable    : true
+topTite   : NAICS
+title     : North American Industry Classification System (NAICS)
+
+
+codes   :
+  - code:
+      value: 541611 
+      description: Administrative Management & General Management Consulting Services
+  - code:
+      value: 541612
+      description: Human Resources Consulting Services
+  - code:
+      value: 541618
+      description: Other Management Consulting Services
+  - code:
+      value: 541690 
+      description: Other Scientific and Technical Consulting Services
+  - code:
+      value: 561110
+      description: Office Administrative Services
+  - code:
+      value: 611430 
+      description: OProfessional and Management Development Training
+    
+
+    
+
+    

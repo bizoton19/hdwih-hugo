@@ -1,11 +1,11 @@
 enable    : true
 topTite   : LITTLE MORE BRIEF
-title     : About Us.
-subtitle  : A Woman-Owned Small Business, HDWIH LLC. is led by President and CEO, Arielle Jean-Baptiste.  An experienced international development expert with over 25 years’ experience in Global Human Resources Management, Arielle brings her diverse experience working successfully in the US and in dozens of overseas countries
+title     : About Us
+media_head: Our President & CEO
+media_body  : A Woman-Owned Small Business, HDWIH LLC. is led by President and CEO, Arielle Jean-Baptiste.  An experienced international development expert with over 25 years’ experience in Global Human Resources Management, Arielle brings her diverse experience working successfully in the US and in dozens of overseas countries
 image     : img/Ariele.jpg
 
-tabItem   :
-  - id        : history
+history   :
     title     : Our History
     heading   : Creating Innovative & Flexible Solutions
     content   : >
@@ -13,7 +13,7 @@ tabItem   :
 
     image     : img/Global-Human-Resources-Busines-copy.png
 
-  - id        : mission
+mission   :
     title     : Mission
     heading   : Our Mission
     content   : >

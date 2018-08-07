@@ -1,0 +1,23 @@
+{{ if .Site.Data.naics.enable }}
+{{ "<!-- Philosophy Section Start -->" | safeHTML }}
+<section >
+    <div class="container">
+        <div class="row">
+            <div class="col">
+               <h3>NAICS Codes</h3>
+              
+                    <ul class="list-group">
+                            {{ range $index, $element := .Site.Data.naics.codes}}
+                        <li class="list-group-item">
+                            {{ if eq $index 0 }}{{ end }}{{ .code.value }} - {{.code.description}}
+                        </li>
+                       {{end}}
+                    </ul>
+      
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ "<!-- Philosophy Section End -->" | safeHTML }}
+{{ end }}
