@@ -37,8 +37,8 @@ collections:
             widget: list
             fields:
               - { label: Name, name: name, widget: string }
-          - label: Client Logos
-            name: clientlogo
+          - label: 'Client Logos'
+            name: 'clientlogo'
             widget: list
             fields:
               - { label: Image, name: image, widget: image }
