@@ -53,10 +53,9 @@ collections:
             name: codes
             widget: list
             fields:
-              - label: code
-                name: code 
-               - { label: Value, name: value, widget: string }
-               - { label: Description, name: description, widget: markdown }
+              - { label: code, name: code }
+              - { label: Value, name: value, widget: string }
+              - { label: Description, name: description, widget: markdown }
       - label: 'CEO bio section'
         name: 'ceobio'
         file: 'data/philosophy.yml'
