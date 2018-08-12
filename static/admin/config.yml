@@ -18,7 +18,7 @@ collections:
           - label: Item
             name : item
             fields:
-              - { label: Position Right, name: positionright, widget: boolean }
+              - { label: PositionRight, name: positionright, widget: boolean }
               - { label: Image, name: image, widget: image }
               - { label: Title, name: title, widget: string } 
               - { label: Description, name: description, widget: markdown }
@@ -56,4 +56,30 @@ collections:
               - { label: code, name: code }
               - { label: Value, name: value, widget: string }
               - { label: Description, name: description, widget: markdown }
-      
+      - label: 'CEO bio section'
+        name: 'ceobio'
+        file: 'data/philosophy.yml'
+        fields:
+          - { label: Enable, name: enable, widget: boolean }
+          - { label: Title, name: title, widget: string }
+          - { label: Top Title, name: topTitle, widget: string }
+          - { label: BioTitle, name: media_head, widget: string }
+          - { label: BioBody, name: media_body, widget: markdown }
+          - { label: Image, name: image, widget: image }
+          - label: History
+            name: history
+            widget: hidden
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Heading, name: heading, widget: string }
+              - { label: Content, name: content, widget: markdown }
+              - { label: Image, name: image, widget: image }
+          - label: Mission
+            name: mission
+            widget: hidden
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Heading, name: heading, widget: string }
+              - { label: Content, name: content, widget: markdown }
+              - { label: Image, name: image, widget: image }
+          
