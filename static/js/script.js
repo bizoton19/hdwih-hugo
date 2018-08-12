@@ -132,7 +132,7 @@
 	/*   Contact Form Validating
 	/* ========================================================================= */
 
-
+    /*
 	$('#contact-submit').click(function (e) {
 
 		//stop the form from being submitted
@@ -140,7 +140,7 @@
 
 		/* declare the variables, var error is the variable that we use on the end
 		to determine if there was an error or not */
-		var error = false;
+		/*var error = false;
 		var name = $('#name').val();
 		var email = $('#email').val();
 		var subject = $('#subject').val();
@@ -157,7 +157,7 @@
 		The only difference from these checks is the email checking, we have
 		email.indexOf('@') which checks if there is @ in the email input field.
 		This JavaScript function will return -1 if no occurrence have been found.*/
-		if (name.length == 0) {
+		/*if (name.length == 0) {
 			var error = true;
 			$('#name').css("border-color", "#D8000C");
 		} else {
@@ -190,6 +190,7 @@
 				'disabled': 'false',
 				'value': 'Sending...'
 			});
+		
 
 			/* using the jquery's post(ajax) function and a lifesaver
 			function serialize() which gets all the data from the form
@@ -208,10 +209,10 @@
 					$('#contact-submit').removeAttr('disabled').attr('value', 'Send The Message');
 				}
 			});
-			 */
+			 
 		}
 	});
-
+   
 
 /* ========================================================================= */
 /*	On scroll fade/bounce effect
