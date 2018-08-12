@@ -7,18 +7,18 @@ theme = "navigator-hugo"
         name    = "About"
         url     = "/about"
         weight  = 2
-    [[menu.nav]]
-        name    = "Service"
-        url     = "/services"
-        weight  = 3
-    [[menu.nav]]
-        name    = "Portfolio"
-        url     = "/portfolio"
-        weight  = 4
-    [[menu.nav]]
-        name    = "Blog"
-        url     = "/blog"
-        weight  = 5
+   # [[menu.nav]]
+      #  name    = "Service"
+      #  url     = "/services"
+      #  weight  = 3
+    #[[menu.nav]]
+      #  name    = "Portfolio"
+      #  url     = "/portfolio"
+      #  weight  = 4
+    #[[menu.nav]]
+     #   name    = "Blog"
+     #   url     = "/blog"
+     #   weight  = 5
     [[menu.nav]]
         name    = "Contact"
         url     = "/contact"
