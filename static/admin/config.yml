@@ -39,7 +39,7 @@ collections:
               - { label: Name, name: name, widget: string }
           - label: clientLogo
             name: clientlogo
-            widget: list
+            widget: hidden
             fields:
               - { label: Image, name: image, widget: image }
       - label: 'NAICS section'
@@ -63,8 +63,8 @@ collections:
           - { label: Enable, name: enable, widget: boolean }
           - { label: Title, name: title, widget: string }
           - { label: Top Title, name: topTitle, widget: string }
-          - { label: BioTitle, name: bioTitle, widget: string }
-          - { label: BioBody, name: bioBody, widget: markdown }
+          - { label: BioTitle, name: media_head, widget: string }
+          - { label: BioBody, name: media_body, widget: markdown }
           - { label: Image, name: image, widget: image }
           - label: History
             name: history
