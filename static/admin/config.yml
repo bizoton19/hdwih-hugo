@@ -25,21 +25,21 @@ collections:
   - label: 'Sections'
     name: 'sections'
     files:
-      - label: 'clients section'
+      - label: 'Clients section'
         name: 'clients'
         file: 'data/clients.yml'
         fields:
           - { label: Enable, name: enable, widget: boolean }
           - { label: Title, name: title, widget: string }
           - { label: Image, name: image, widget: image }
-          - label: serviceList
+          - label: Service List
             name: servicelist
             widget: list
             fields:
               - { label: Name, name: name, widget: string }
-          - label: clientLogo
+          - label: Client Logos
             name: clientlogo
-            widget: hidden
+            widget: list
             fields:
               - { label: Image, name: image, widget: image }
       - label: 'NAICS section'
@@ -54,8 +54,8 @@ collections:
             widget: list
             fields:
               - { label: code, name: code }
-              - { label: Value, name: value, widget: string }
-              - { label: Description, name: description, widget: markdown }
+               - { label: Value, name: value, widget: string }
+               - { label: Description, name: description, widget: markdown }
       - label: 'CEO bio section'
         name: 'ceobio'
         file: 'data/philosophy.yml'
