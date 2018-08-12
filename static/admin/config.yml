@@ -15,8 +15,8 @@ collections:
         widget: 'hidden'
         fields:
           - { label: Enable, name: enable, widget: boolean }
-          - label: Item
-            name : item
+          - label: AboutSection
+            name: aboutSection
             fields:
               - { label: PositionRight, name: positionright, widget: boolean }
               - { label: Image, name: image, widget: image }
