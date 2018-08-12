@@ -11,7 +11,7 @@ collections:
     files:
       - label: 'About Page'
         name: 'about'
-        file: 'site/data/about.yml'
+        file: 'data/about.yml'
         fields:
           - { label: Enable, name: enable, widget: boolean }
           - label: Item
