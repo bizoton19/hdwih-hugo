@@ -193,7 +193,7 @@
 
 			/* using the jquery's post(ajax) function and a lifesaver
 			function serialize() which gets all the data from the form
-			we submit it to send_email.php */
+			we submit it to send_email.php
 			$.post("sendmail.php", $("#contact-form").serialize(), function (result) {
 				//and after the ajax request ends we check the text returned
 				if (result == 'sent') {
@@ -208,6 +208,7 @@
 					$('#contact-submit').removeAttr('disabled').attr('value', 'Send The Message');
 				}
 			});
+			 */
 		}
 	});
 
