@@ -1,14 +1,19 @@
-enable  : true
-item    :
-  - positionRight : false
-    image : img/what_we_do.png
-    title : Service
-    description : >
-     Providing good service means taking the time to listen.  Our streamlined human resources delivery responds to client’s needs.  We are committed to excellence and creating innovative and flexible solutions for our clients.  HDWIH’s principals bring over 45 years of experience with public and private sector and including"
-  
-  - positionRight : true
-    image : img/service.png
-    title : What we do
-    description : >
-      We are dedicated to understanding your business, to being flexible and holistic in our approach by responding to our customer’s changing needs so that we can develop the value we bring to each relationship. We are known to adapting to ambiguous environments.
-
+enable: true
+item:
+  - description: >-
+      Providing good service means taking the time to listen.  Our streamlined
+      human resources delivery responds to client’s needs.  We are committed to
+      excellence and creating innovative and flexible solutions for our
+      clients.  HDWIH’s principals bring over 45 years of experience with public
+      and private sector.
+    image: img/what_we_do.png
+    positionRight: false
+    title: Service
+  - description: >-
+      We are dedicated to understanding your business, to being flexible and
+      holistic in our approach by responding to our customer’s changing needs so
+      that we can develop the value we bring to each relationship. We are known
+      to adapting to ambiguous environments.
+    image: img/service.png
+    positionRight: true
+    title: What we do
