@@ -1,6 +1,6 @@
 enable: true
 item:
-  - description: >-
+  - description: >
       Providing good service means taking the time to listen.  Our streamlined
       human resources delivery responds to client’s needs.  We are committed to
       excellence and creating innovative and flexible solutions for our
@@ -9,7 +9,7 @@ item:
     image: img/what_we_do.png
     positionRight: false
     title: Service
-  - description: >-
+  - description: >
       We are dedicated to understanding your business, to being flexible and
       holistic in our approach by responding to our customer’s changing needs so
       that we can develop the value we bring to each relationship. We are known
