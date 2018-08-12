@@ -1,38 +1,14 @@
 {{ "<!-- Footer Start -->" | safeHTML }}
 <footer id="footer" class="bg-one">
     <div class="top-footer">
-        <div class="container">
-            <div class="row">
-                    {{ "<!-- Footer Start 
-                <div class="col-sm-3 col-md-3 col-lg-3">
-                    <h3>About</h3>
-                    {{ with .Site.Params.footerDescription }}<p>{{ . }}</p>{{ end }}
-                </div>
-                <div class="col-sm-3 col-md-3 col-lg-3">
-                    <h3>Our Services</h3>
-                    <ul>
-                        {{ range .Site.Menus.service }}
-                        <li>
-                            <a href="{{ .URL }}">{{ .Name }}</a>
-                        </li>
-                        {{ end }}
-                    </ul>
-                </div>
-                <div class="col-sm-3 col-md-3 col-lg-3">
-                    <h3>Quick Links</h3>
-                    <ul>
-                        {{ range .Site.Menus.quicklink }}
-                        <li>
-                            <a href="{{ .URL }}">{{ .Name }}</a>
-                        </li>
-                        {{ end }}
-                    </ul>
-                </div>
-                
-            </div>
+    <div class="container">
+        <div class="row">
+            
         </div>
     </div>
-    -->" | safeHTML }}
+ 
+    </div>
+   {{ "-->" | safeHTML }}
     <div class="footer-bottom">
         <h5>Copyright 2018. All rights reserved.</h5>
         <h6>Created with Hugo
