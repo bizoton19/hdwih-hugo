@@ -2,9 +2,10 @@ backend:
   name: git-gateway
   branch: master 
   publish_mode: editorial_workflow
-  media_folder: 'static/img'
+  
+media_folder: "static/img"
 
-  collections:
+collections:
   - label: 'Pages'
     name: 'pages'
     files:
@@ -20,7 +21,7 @@ backend:
               - { label: PositionRight, name: positionRight, widget: boolean }
               - { label: Image, name: image, widget: image }
               - { label: Title, name: title, widget: string}
-              - {label: Description, name: description, widget: markdown}
+              - { label: Description, name: description, widget: markdown }
       
   
 
