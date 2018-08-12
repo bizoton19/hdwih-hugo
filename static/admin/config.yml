@@ -14,8 +14,8 @@ collections:
         file: 'data/about.yml'
         fields:
           - { label: Enable, name: enable, widget: boolean }
-          - label: AboutSection
-            name: aboutSection
+          - label: About Section
+            name: item
             fields:
               - { label: PositionRight, name: positionright, widget: boolean }
               - { label: Image, name: image, widget: image }
