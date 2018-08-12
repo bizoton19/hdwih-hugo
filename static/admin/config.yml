@@ -12,17 +12,18 @@ collections:
       - label: 'About Page'
         name: 'about'
         file: 'data/about.yml'
+        widget: 'hidden'
         fields:
           - { label: Enable, name: enable, widget: boolean }
           - label: Item
-            name: item
+            name : item
             fields:
-              - { label: PositionRight, name: positionRight, widget: boolean }
+              - { label: Position Right, name: positionright, widget: boolean }
               - { label: Image, name: image, widget: image }
               - { label: Title, name: title, widget: string}
               - { label: Description, name: description, widget: markdown }
   - label: 'Sections'
-    name: 'sections'
+    name : 'sections'
     files:
       - label: 'Clients section'
         name: 'clients'
