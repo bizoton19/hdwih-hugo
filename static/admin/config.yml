@@ -12,7 +12,6 @@ collections:
       - label: 'About Page'
         name: 'about'
         file: 'data/about.yml'
-        widget: 'hidden'
         fields:
           - { label: Enable, name: enable, widget: boolean }
           - label: AboutSection
