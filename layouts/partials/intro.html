@@ -3,29 +3,29 @@
 <section class="hero-area">
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 offset-3">
                 
-                    <img class="img-fluid rounded" src="{{ with .Site.Params.intro.home_banner}}{{.}}{{end}}" alt="home_banner">
-                   
+                    <!--<img class="img-fluid rounded" src="{{ with .Site.Params.intro.home_banner}}{{.}}{{end}}" alt="home_banner">-->
+                    <div class="block">
+                            {{ with .Site.Params.intro.title}}
+                                <h2>{{ . }}</h2>
+                            {{ end }}
+                            {{ with .Site.Params.intro.summary}}
+                                <p>{{ . }}</p>
+                            {{ end }}
+                            
+                            {{ if .Site.Params.intro.button }}
+                                <ul class="list-inline wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".7s">
+                                    <li class="list-inline-item">
+                                        <a href="{{ with .Site.Params.intro.btnURL }}{{.}}{{ end }}" target="_blank" class="btn btn-main">{{ with .Site.Params.intro.btnText }}{{.}}{{ end }}</a>
+                                    </li>
+                                </ul>
+                            {{ end }}
+                        </div>
                 
             </div>
             <div class="col-md-6">
-                <div class="block">
-                    {{ with .Site.Params.intro.title}}
-                        <h2>{{ . }}</h2>
-                    {{ end }}
-                    {{ with .Site.Params.intro.summary}}
-                        <p>{{ . }}</p>
-                    {{ end }}
-                    
-                    {{ if .Site.Params.intro.button }}
-                        <ul class="list-inline wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".7s">
-                            <li class="list-inline-item">
-                                <a href="{{ with .Site.Params.intro.btnURL }}{{.}}{{ end }}" target="_blank" class="btn btn-main">{{ with .Site.Params.intro.btnText }}{{.}}{{ end }}</a>
-                            </li>
-                        </ul>
-                    {{ end }}
-                </div>
+            
             </div>
         </div>
     </div>

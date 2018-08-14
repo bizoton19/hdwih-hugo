@@ -573,7 +573,17 @@ a:focus, a:hover {
       -ms-flex-align: center;
           align-items: center;
   background: #1f2532;
+  background-image: url("../img/adult-analyzing-brainstorming.png");
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 }
+
 
 @media (max-width: 480px) {
   .hero-area {
@@ -598,7 +608,7 @@ a:focus, a:hover {
 }
 
 .hero-area .block p {
-  color: #707d8f;
+  color: #fff;/*#707d8f;*/
   margin-bottom: 20px;
 }
 

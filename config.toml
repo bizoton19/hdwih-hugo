@@ -32,7 +32,7 @@ theme = "navigator-hugo"
     logo="img/Hdwih_Logo.png"
 
     [params.intro]
-    home_banner="img/home.jpeg"
+    home_banner="img/adult-analyzing-brainstorming.png"
     title="Transformation through awareness"
     summary="We are known to adapting to ambiguous environments. We are  committed to excellence and creating innovative and flexible solutions for our clients.  HDWIH’s principals bring over 45 years of experience with public and private sector."
     btnUrl="/About"
