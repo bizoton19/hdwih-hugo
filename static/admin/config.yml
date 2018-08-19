@@ -29,7 +29,6 @@ collections:
           - { label: Enable, name: enable, widget: boolean }
           - label: Contact Page
             name: item
-            widget: list
             fields:
               - { label: Top Title, name: topTitle, widget: string }
               - { label: Title,  name: title, widget: string}
