@@ -32,7 +32,7 @@ collections:
             fields:
               - { label: Top Title, name: topTitle, widget: string }
               - { label: Title,  name: title, widget: string}
-              - { label: Email Info, name: subtitle, widget: textß } 
+              - { label: Email Info, name: subtitle, widget: text } 
               - { label: Address, name: address, widget: markdown }
               - { label: Phone, name: phone, widget: text }
               - { label: Fax, name: fax, widget: text }
