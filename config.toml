@@ -1,4 +1,4 @@
-baseURL =  "https://happy-perlman-37c2d7.netlify.com/" 
+baseURL =  "/" 
 languageCode = "en-us"
 title = "hdwih"
 theme = "navigator-hugo"
