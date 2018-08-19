@@ -1,16 +1,16 @@
-{{ if .Site.Params.contact.enable }}
+{{ if .Site.Data.contact.enable }}
 {{ "<!-- Start Contact Us -->" | safeHTML }}
 <section class="contact-us section bg-gray" id="contact">
     <div class="container">
         <div class="row">
             <div class="col">
                 <div class="title text-center">
-                    {{ with .Site.Params.contact.topTitle }}<h4>{{.}}</h4>{{ end }}
-                    {{ with .Site.Params.contact.title }}
+                    {{ with .Site.Data.contact.topTitle }}<h4>{{.}}</h4>{{ end }}
+                    {{ with .Site.Data.contact.title }}
                     <h2>{{.}}</h2>
                     <span class="border"></span>
                     {{ end }}
-                    {{ with .Site.Params.contact.subtitle }}<p>{{.}}</p>{{ end }}
+                    {{ with .Site.Data.contact.subtitle }}<p>{{.}}</p>{{ end }}
                 </div>
             </div>
         </div>
@@ -23,7 +23,7 @@
                     <div class="address-block contact-meta-block">
                             <i class="tf-ion-android-pin"></i>
                             <h4>Our Location</h4>
-                            {{ with .Site.Params.contact.address }}<p>{{ . | safeHTML }}</p>{{ end }}
+                            {{ with .Site.Data.contact.address }}<p>{{ . | safeHTML }}</p>{{ end }}
                         </div>
                     </div>
                     <div class="col-12 col-md-6">
@@ -31,7 +31,7 @@
                             <i class="tf-ion-ios-telephone"></i>
                             <h4>Call Us</h4>
                             <p>
-                                 {{ with .Site.Params.contact.phone }}Office: {{.}} {{ end }} 
+                                 {{ with .Site.Data.contact.phone }}Office: {{.}} {{ end }} 
                                 
                             </p>
                         </div>
