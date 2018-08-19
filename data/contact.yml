@@ -1,0 +1,17 @@
+enable: true
+topTitle: Get in touch with us
+title   : Contact Us.
+subtitle: "email: info@hdwih.com"
+address : 4242 East- West Highway - Suite 909 - Chevy Chase, Maryland 20815, United States
+phone   : (240) 463 1555
+fax     : +61 3827 3590
+
+
+        #facebook= "https://www.facebook.com/HDWIHLLC"
+        #twitter = "https://twitter.com/"
+        #linkedin= "https://www.linkedin.com/"
+        #dribbble= "https://dribbble.com/"
+        #instagram= "https://www.instagram.com/"
+        #mapLatitude = "51.507351"
+        #mapLongitude= "-0.127758"
+        #mapMarker   = "images/marker.png"
