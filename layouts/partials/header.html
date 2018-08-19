@@ -28,7 +28,15 @@
 <link rel="stylesheet" href="{{ "plugins/slick-carousel/slick/slick-theme.css" | absURL }}">
 {{ "<!-- Main Stylesheet -->" | safeHTML }}
 <link rel="stylesheet" href="{{ "css/style.css" | absURL }}">
+{{"<!-- charts and maps stylsheet-->" | safeHTML}}
+<link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
 
 </head>
 
 <body id="body">
+        {{"<!-- Maps and Charts js -->" | safeHTML}}
+
+        <script src="https://www.amcharts.com/lib/3/ammap.js"></script>
+        <script src="https://www.amcharts.com/lib/3/maps/js/worldLow.js"></script>
+        <script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
+        <script src="https://www.amcharts.com/lib/3/plugins/export/export.min.js"></script>

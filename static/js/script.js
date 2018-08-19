@@ -125,8 +125,72 @@
 
 	});
 
+	/*===================================================
+	Charts and Maps Section
 
+	==================================================*/
+	var map = AmCharts.makeChart( "chartdiv", {
 
+		"type": "map",
+		"theme": "light",
+		"projection": "miller",
+	  
+		"dataProvider": {
+		  "map": "worldLow",
+		  "getAreasFromMap": false,
+		  "areas": [
+			{
+			  "title": "United States",
+			  "id": "US"
+			},
+			{
+			  "title": "Trinidad & Tobago",
+			  "id": "TT"
+			},
+			{
+			  "title": "Uganda",
+			  "id": "UG"
+			},
+			{
+			  "title": "Afghanistan",
+			  "id": "AF"
+			},
+			{
+			  "title": "Benin",
+			  "id": "BJ"
+			},
+			{
+			  "title": "Burkina Faso",
+			  "id": "BF"
+			},
+			{
+			  "title": "Democratic Republic of Congo",
+			  "id": "CD"
+			},
+			{
+			  "title": "Rwanda",
+			  "id": "RW"
+			},
+			{
+			  "title": "Ivory Coast",
+			  "id": "CI"
+			},
+			{
+			  "title": "Mali",
+			  "id": "ML"
+			},
+			{
+			  "title": "Haiti",
+			  "id": "HT"
+			}
+				   
+				   ]
+		},
+		"areasSettings": {
+		  "autoZoom": true,
+		  "selectedColor": "#CC0000"
+		}
+	  } );
 
 	/* ========================================================================= */
 	/*   Contact Form Validating
