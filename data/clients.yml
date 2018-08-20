@@ -7,5 +7,5 @@ servicelist:
   - name: Human Resources Management
   - name: Resiliency Training
 clientlogo:
-  - {}
-  - image: /static/img/sba-wosb-1-logo.png
+  - image: /static/img/Abt logo.svg
+  - image: /static/img/Cardno.jpg
