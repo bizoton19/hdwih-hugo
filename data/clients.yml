@@ -1,8 +1,6 @@
-enable    : true
-title     : Clients
-description: >
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae dolorem, saepe ab, optio obcaecati id asperiores. Ab ullam qui architecto at eos distinctio debitis, libero reprehenderit excepturi rem ut odit est nam magni ratione necessitatibus, quod eaque, eius minima tempora deleniti illum aliquam! Perferendis optio dolorum blanditiis sapiente aperiam quaerat.
-image     : img/ihrisuganda.jpg
+enable: true
+title: Clients
+image: img/ihrisuganda.jpg
 servicelist:
   - name    : Global Professional and Administrative Services
   - name    : Global Human Resources and Institutional Support
