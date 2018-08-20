@@ -1,27 +1,11 @@
-enable    : true
-title     : Clients
-description: >
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae dolorem, saepe ab, optio obcaecati id asperiores. Ab ullam qui architecto at eos distinctio debitis, libero reprehenderit excepturi rem ut odit est nam magni ratione necessitatibus, quod eaque, eius minima tempora deleniti illum aliquam! Perferendis optio dolorum blanditiis sapiente aperiam quaerat.
-image     : img/ihrisuganda.jpg
+enable: true
+title: Clients
+image: img/ihrisuganda.jpg
 servicelist:
-  - name    : Global Professional and Administrative Services
-  - name    : Global Human Resources and Institutional Support
-  - name    : Human Resources Management
-  - name    : Resiliency Training
-clientLogo:
-  - image   : img/Abt logo.svg
-  - image   : img/Cardno.jpg
-  - image   : img/Creative Logo.png
-  - image   : img/Department of State.png
-  - image   : img/Dts.jpg
-  - image   : img/IBTCI-LOGO-2012.jpg
-  - image   : img/IMC Logo.png
-  - image   : img/MHAVE.jpg
-  - image   : img/MTC_Logo_Primary.png
-  - image   : img/NRCE Logo.jpg
-  - image   : img/Palladium Logo.jpg
-  - image   : img/Paltech Logo.jpg
-  - image   : img/QED logo.svg
-  - image   : img/RTI Logo.png
-  - image   : img/Social Impact Logo.png
-  
+  - name: Global Professional and Administrative Services
+  - name: Global Human Resources and Institutional Support
+  - name: Human Resources Management
+  - name: Resiliency Training
+clientlogo:
+  - {}
+  - image: /static/img/sba-wosb-1-logo.png
