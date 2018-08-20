@@ -75,9 +75,9 @@
 		infinite: true,
 		arrows:false,
 		autoplay: true,
-  		autoplaySpeed: 2000,
-  		slidesToShow: 5,
-  		slidesToScroll: 1,
+  		autoplaySpeed: 3000,
+  		slidesToShow: 6,
+  		slidesToScroll: 2,
 	});
 
 

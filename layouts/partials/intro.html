@@ -7,14 +7,14 @@
                 
                     <!--<img class="img-fluid rounded" src="{{ with .Site.Params.intro.home_banner}}{{.}}{{end}}" alt="home_banner">-->
                     <div class="block">
-                            {{ with .Site.Params.intro.title}}
+                            {{ with .Site.Data.home.title}}
                                 <h2>{{ . }}</h2>
                             {{ end }}
-                            {{ with .Site.Params.intro.summary}}
+                            {{ with .Site.Data.home.summary}}
                                 <p>{{ . }}</p>
                             {{ end }}
                             
-                            {{ if .Site.Params.intro.button }}
+                            {{ if .Site.Data.home.button }}
                                 <ul class="list-inline wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".7s">
                                     <li class="list-inline-item">
                                         <a href="{{ with .Site.Params.intro.btnURL }}{{.}}{{ end }}" target="_blank" class="btn btn-main">{{ with .Site.Params.intro.btnText }}{{.}}{{ end }}</a>
@@ -34,13 +34,16 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-5">
-                    {{ with .Site.Params.intro_sections.who_we_are_title}}
+                    {{ with .Site.Data.home.who_we_are_title}}
                         <h2>{{ . }}</h2>
                     {{ end }}
                 </div>
                 <div class="col-12 col-md-7">
-                    {{ with .Site.Params.intro_sections.who_we_are_summary }}
+                    {{ with .Site.Data.home.who_we_are_summary }}
                         <p>{{ . | markdownify }}</p>
+                    {{ end }}
+                    {{ with .Site.Data.home.certification_img }}
+                        <img src="{{ . }}" alt="certification image" class="img responsive">
                     {{ end }}
                 </div>
             </div>
