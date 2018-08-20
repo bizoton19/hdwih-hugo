@@ -8,3 +8,4 @@ servicelist:
   - name: Resiliency Training
 clientlogo:
   - {}
+  - image: /static/img/sba-wosb-1-logo.png
