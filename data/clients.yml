@@ -6,6 +6,4 @@ servicelist:
   - name: Global Human Resources and Institutional Support
   - name: Human Resources Management
   - name: Resiliency Training
-clientlogo:
-  - image: /static/img/Abt logo.svg
-  - image: /static/img/Cardno.jpg
+clientlogo: []
