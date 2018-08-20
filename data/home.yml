@@ -1,0 +1,19 @@
+logo : img/Hdwih_Logo.png
+home_banner : "img/adult-analyzing-brainstorming.png"
+title : Transformation through awareness
+summary: We are known to adapting to ambiguous environments. We are  committed to excellence and creating innovative and flexible solutions for our clients.  HDWIH’s principals bring over 45 years of experience with public and private sector."
+btnUrl : "/About"
+button : "true"
+btnText : "Learn More..."
+certification_img: "img/SBA-WOSB-1 logo.png"
+
+    # home page front summary section
+who_we_are_title: "Who We are!"
+who_we_are_summary: "HDWIH LLC is a certified Woman-owned Small Business management consulting firm that provides creates and executes strategic human resources management, organizational development, recruitment, executive search and staff augmentation to business, organizations, and overnments globally. We draw on our extensive pool of expert leaders in the United States, Africa, the Caribbean and Latin America.  We are  committed to excellence and creating innovative and flexible solutions for our clients.  Additionally, HDWIH’s principals and staff are multilingual with language capacities in French, Spanish, and Haitian Creole."
+service_title : "Service"
+service_summary: "nothing"
+professionalism_title : "Professionalism"
+professionalism_summary: "HDWIH LLC provides high quality management services.  HDWIH LLC. will work with your organization every step of the way to make sure you received the services you need. HDWIH LLC. is client-oriented, and we maintain strict confidentiality"
+what_we_do_title=: What we do!"
+what_we_do_summary: "We are dedicated to understanding your business, to being flexible and holistic in our approach by responding to our customer’s changing needs so that we can develop the value we bring to each relationship. We are known to adapting to ambiguous environments."
+    
