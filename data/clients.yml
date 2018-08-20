@@ -9,7 +9,7 @@ servicelist:
   - name    : Human Resources Management
   - name    : Resiliency Training
 clientLogo:
-  - image   : img/Abt logo.svg
+  - image   : static/img/Abt logo.svg
   - image   : img/Cardno.jpg
   - image   : img/Creative Logo.png
   - image   : img/Department of State.png
