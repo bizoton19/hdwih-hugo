@@ -53,20 +53,4 @@ theme = "navigator-hugo"
         what_we_do_summary="We are dedicated to understanding your business, to being flexible and holistic in our approach by responding to our customer’s changing needs so that we can develop the value we bring to each relationship. We are known to adapting to ambiguous environments."
     
      
-     # Contact Section
-    [params.contact]
-        enable  = true
-        topTitle= "Get in touch with us"
-        title   = "Contact Us."
-        subtitle= "Transformation Through Awareness"
-        address = "4242 East- West Highway - Suite 909 - Chevy Chase, Maryland 20815, United States"
-        phone   = "(240) 463 1555"
-        fax     = "+61 3827 3590"
-        facebook= "https://www.facebook.com/HDWIHLLC"
-        #twitter = "https://twitter.com/"
-        #linkedin= "https://www.linkedin.com/"
-        #dribbble= "https://dribbble.com/"
-        #instagram= "https://www.instagram.com/"
-        #mapLatitude = "51.507351"
-        #mapLongitude= "-0.127758"
-        #mapMarker   = "images/marker.png"
+     
