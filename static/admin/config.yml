@@ -3,7 +3,7 @@ backend:
   branch: master 
   
 publish_mode: editorial_workflow
-media_folder: "img"
+media_folder: "static/img"
 
 collections:
   - label: 'Pages'
