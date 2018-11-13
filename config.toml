@@ -15,10 +15,10 @@ theme = "navigator-hugo"
       #  name    = "Portfolio"
       #  url     = "/portfolio"
       #  weight  = 4
-    #[[menu.nav]]
-     #   name    = "Blog"
-     #   url     = "/blog"
-     #   weight  = 5
+    [[menu.nav]]
+       name    = "Blog"
+       url     = "/blog"
+       weight  = 5
     [[menu.nav]]
         name    = "Contact"
         url     = "/contact"
