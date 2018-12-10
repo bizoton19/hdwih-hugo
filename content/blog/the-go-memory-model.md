@@ -1,7 +1,7 @@
 ---
 title: The Go Memory model
+author: Alexandre Salomon
 date: 2018-12-10T03:16:58.543Z
-thumbnail: /static/img/Hdwih_Logo.png
 ---
 Within a single goroutine, reads and writes must behave as if they executed in the order specified by the program. That is, compilers and processors may reorder the reads and writes executed within a single goroutine only when the reordering does not change the behavior within that goroutine as defined by the language specification. Because of this reordering, the execution order observed by one goroutine may differ from the order perceived by another. For example, if one goroutine executes a = 1; b = 2;, another might observe the updated value of b before the updated value of a.
 
