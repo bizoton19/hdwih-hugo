@@ -30,6 +30,7 @@ theme = "navigator-hugo"
 [params]
     home="Home"
     logo="img/Hdwih_Logo.png"
+    dateFormat = "6 January 2006"
 
     [params.intro]
     home_banner="img/adult-analyzing-brainstorming.png"
