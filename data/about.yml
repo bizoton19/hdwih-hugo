@@ -1,19 +1,12 @@
 enable: true
 item:
-  - description: >
+  - description: >-
       Providing good service means taking the time to listen.  Our streamlined
-      human resources delivery responds to client’s needs.  We are committed to
-      excellence and creating innovative and flexible solutions for our
-      clients.  HDWIH’s principals bring over 45 years of experience with public
-      and private sector.
+      human resources-based support services responds to the needs of the
+      clients.  We are committed to excellence and creating innovative and
+      flexible solutions for our clients.
     image: img/what_we_do.png
-    positionRight: false
     title: Service
-  - description: >
-      We are dedicated to understanding your business, to being flexible and
-      holistic in our approach by responding to our customer’s changing needs so
-      that we can develop the value we bring to each relationship. We are known
-      to adapting to ambiguous environments.
+  - description: "We provide human resources -based support services in various sectors such as Global Health, Agriculture, Monitoring and Evaluation, and Learning.  In addition, we provide managerial and short-term surge capacity to our clients.  We are committed to excellence and creating innovative and flexible solutions for our clients.  We bring over 25 years of experience with public and private sector including working with the U.S. Government. \r\n\nWe are dedicated to understanding your business, to being flexible and holistic in our approach by responding to our customer’s changing needs so that we can develop the value we bring to each relationship. We are known to adapting to ambiguous environments."
     image: img/service.png
-    positionRight: true
     title: What we do
