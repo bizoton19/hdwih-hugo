@@ -36,8 +36,8 @@ collections:
         name: 'contact'
         file: 'data/contact.yml'
         fields:
-          - { label: Enable, name: enable, widget: boolean }
           - { label: Top Title, name: topTitle, widget: string }
+          - { label: Enable, name: enable, widget: boolean }
           - { label: Title,  name: title, widget: string}
           - { label: Email Info, name: subtitle, widget: text } 
           - { label: Address, name: address, widget: markdown }
@@ -51,7 +51,7 @@ collections:
         file: 'data/about.yml'
         fields:
           - {label: Enable, name: enable, widget: boolean}
-          - label: 'Section List'
+          - label: 'Home Page Section List'
             name: 'item'
             widget: list
             fields:
@@ -59,12 +59,12 @@ collections:
               - { label: Description, name: description, widget: markdown }
               - { label: Place Image Right of Text, name: positionRight, widget: boolean }
               - { label: Image, name: image, widget: image }
-      - label: 'Clients section'
+      - label: 'Clients Section List'
         name: 'clients'
         file: 'data/clients.yml'
         fields:
-          - { label: Enable, name: enable, widget: boolean }
           - { label: Title, name: title, widget: string }
+          - { label: Enable, name: enable, widget: boolean }
           - { label: Image, name: image, widget: image }
           - label: Service List
             name: servicelist
@@ -80,8 +80,8 @@ collections:
         name: 'naics'
         file: 'data/naics.yml'
         fields:
-          - { label: Enable, name: enable, widget: boolean }
           - { label: Title, name: title, widget: string }
+          - { label: Enable, name: enable, widget: boolean }
           - { label: Top Title, name: topTitle, widget: string }
           - label: Codes
             name: codes
@@ -97,8 +97,8 @@ collections:
         name: 'ceobio'
         file: 'data/philosophy.yml'
         fields:
-          - { label: Enable, name: enable, widget: boolean }
           - { label: Title, name: title, widget: string }
+          - { label: Enable, name: enable, widget: boolean }
           - { label: Top Title, name: topTitle, widget: string }
           - { label: BioTitle, name: media_head, widget: string }
           - { label: BioBody, name: media_body, widget: markdown }
