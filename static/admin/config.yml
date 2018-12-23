@@ -37,20 +37,7 @@ collections:
             - { label: Home Page Profesionalism Section Title, name: professionalism_title, widget: string }
             - { label: Home Page Service Section Summary, name: professionalism_summary, widget: text}
             - { label: Home Page What We Do Section Title, name: what_we_do_title, widget: string }
-            - { label: Home Page What We Do Section Summary , name: what_we_do_summary, widget: text }
-      - label: 'About Page'
-        name: 'about'
-        file: 'data/about.yml'
-        fields:
-          - { label: Enable, name: enable, widget: boolean }
-          - label: About Section
-            name: item
-            widget: list
-            fields:
-              - { label: PositionRight, name: positionright, widget: boolean }
-              - { label: Image, name: image, widget: image }
-              - { label: Title, name: title, widget: string } 
-              - { label: Description, name: description, widget: markdown }
+            - { label: Home Page What We Do Section Summary , name: what_we_do_summary, widget: markdown }
       - label: 'Contact Page'
         name: 'contact'
         file: 'data/contact.yml'
@@ -65,6 +52,15 @@ collections:
   - label: 'Sections'
     name : 'sections'
     files:
+      - label : 'Home Page Sections'
+        name: 'Home Sections'
+        file: 'data/about.yml'
+        widget: list
+        fields:
+              - { label: PositionRight, name: positionright, widget: boolean }
+              - { label: Image, name: image, widget: image }
+              - { label: Title, name: title, widget: string } 
+              - { label: Description, name: description, widget: markdown }
       - label: 'Clients section'
         name: 'clients'
         file: 'data/clients.yml'
