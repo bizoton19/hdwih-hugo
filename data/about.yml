@@ -1,12 +1,16 @@
 enable: true
 item:
   - description: >-
-      Providing good service means taking the time to listen.  Our streamlined
-      human resources-based support services responds to the needs of the
-      clients.  We are committed to excellence and creating innovative and
-      flexible solutions for our clients.
-    image: img/what_we_do.png
-    title: Service
-  - description: "We provide human resources -based support services in various sectors such as Global Health, Agriculture, Monitoring and Evaluation, and Learning.  In addition, we provide managerial and short-term surge capacity to our clients.  We are committed to excellence and creating innovative and flexible solutions for our clients.  We bring over 25 years of experience with public and private sector including working with the U.S. Government. \r\n\nWe are dedicated to understanding your business, to being flexible and holistic in our approach by responding to our customer’s changing needs so that we can develop the value we bring to each relationship. We are known to adapting to ambiguous environments."
+      HDWIH LLC provides high quality management services.  We will work with
+      your organization every step of the way to make sure you received the
+      services you need. We provide human resources-based support services in
+      various sectors such as Global Health, Agriculture, Monitoring and
+      Evaluation and Learning.  We also provide field support, managerial and
+      short-term surge capacity.   We draw on our extensive pool of experts in
+      the United States, Africa, the Caribbean and Latin America. 
+
+       We have over 20 years’ experience working overseas and in fragile countries such as Côte d'Ivoire, Mali, Haiti, Rwanda, Burkina Faso, Trinidad and Tobago and Uganda.  We also have extensive experience supporting projects in Afghanistan, Benin, Democratic Republic of Congo, Jordan, and Nigeria.
     image: img/service.png
+    positionright: true
     title: What we do
+  - description: ''
