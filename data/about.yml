@@ -8,6 +8,7 @@ item:
       and private sector.
     image: img/what_we_do.png
     title: Service
+    positionRight : true
   - description: |-
       We are dedicated to understanding your business, to being flexible and
 
@@ -38,3 +39,4 @@ item:
         Afghanistan, Benin, Democratic Republic of Congo, Jordan, and Nigeria.
     image: img/service.png
     title: What we do
+    positionRight : false
