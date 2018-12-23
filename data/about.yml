@@ -18,9 +18,11 @@ item:
 
       HDWIH LLC provides high quality management services.  HDWIH LLC. will work
       with your organization every step of the way to make sure you received the
-      services you need. 
-
-
+      services you need.
+    image: img/service.png
+    positionright: true
+    title: What we do
+  - description: >-
       We provide the following: 
 
       service in human resources-based support services in various sectors such
@@ -35,6 +37,6 @@ item:
       Trinidad and Tobago and Uganda.  In addition, we have extensive experience
       supporting projects in Afghanistan, Benin, Democratic Republic of Congo,
       Jordan, and Nigeria.
-    image: img/service.png
+    image: /static/img/adult-brainstorming-business-1181421.jpg
     positionright: true
-    title: What we do
+    title: Services Provided
