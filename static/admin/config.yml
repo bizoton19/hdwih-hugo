@@ -53,6 +53,8 @@ collections:
           - {label: Enable, name: enable, widget: boolean}
           - label: HomeSections
             name: sections
+          - label: 'Section List'
+            name: 'sectionlist'
             widget: list
             fields:
               - { label: PositionRight, name: positionright, widget: boolean }
