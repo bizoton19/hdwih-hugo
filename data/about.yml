@@ -13,4 +13,9 @@ item:
     image: img/service.png
     positionright: true
     title: What we do
-  - description: ''
+  - description: >-
+      Providing good service means taking the time to listen. Our streamlined
+      human resources-based support services responds to the needs of the
+      clients. We are committed to excellence and creating innovative and
+      flexible solutions for our clients.
+    image: /static/img/what_we_do.png
