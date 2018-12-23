@@ -54,7 +54,7 @@ collections:
           - label: HomeSections
             name: sections
           - label: 'Section List'
-            name: 'sectionlist'
+            name: 'item'
             widget: list
             fields:
               - { label: PositionRight, name: positionright, widget: boolean }
