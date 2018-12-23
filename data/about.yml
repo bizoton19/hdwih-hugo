@@ -20,8 +20,8 @@ item:
       with your organization every step of the way to make sure you received the
       services you need.
     image: img/service.png
-    positionRight: true
     title: What we do
+    positionRight: true
   - description: >-
       We provide the following: 
 
