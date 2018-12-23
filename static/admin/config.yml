@@ -55,10 +55,10 @@ collections:
             name: 'item'
             widget: list
             fields:
-              - { label: Place Image Right of Text, name: positionRight, widget: boolean }
-              - { label: Image, name: image, widget: image }
               - { label: Title, name: title, widget: string } 
               - { label: Description, name: description, widget: markdown }
+              - { label: Place Image Right of Text, name: positionRight, widget: boolean }
+              - { label: Image, name: image, widget: image }
       - label: 'Clients section'
         name: 'clients'
         file: 'data/clients.yml'
