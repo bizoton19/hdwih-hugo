@@ -10,7 +10,13 @@ item:
       the United States, Africa, the Caribbean and Latin America. 
 
        We have over 20 years’ experience working overseas and in fragile countries such as Côte d'Ivoire, Mali, Haiti, Rwanda, Burkina Faso, Trinidad and Tobago and Uganda.  We also have extensive experience supporting projects in Afghanistan, Benin, Democratic Republic of Congo, Jordan, and Nigeria.
-    image: img/service.png
+    image: /static/img/what_we_do.png
     positionright: true
     title: What we do
-  - description: ''
+  - description: >-
+      Providing good service means taking the time to listen. Our streamlined
+      human resources-based support services responds to the needs of the
+      clients. We are committed to excellence and creating innovative and
+      flexible solutions for our clients.
+    image: /static/img/service.png
+    title: Service
