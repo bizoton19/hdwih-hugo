@@ -55,7 +55,7 @@ collections:
             name: 'item'
             widget: list
             fields:
-              - { label: PositionRight, name: positionright, widget: boolean }
+              - { label: Place Image Right of Text, name: positionRight, widget: boolean }
               - { label: Image, name: image, widget: image }
               - { label: Title, name: title, widget: string } 
               - { label: Description, name: description, widget: markdown }
