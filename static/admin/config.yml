@@ -47,12 +47,10 @@ collections:
     name : 'sections'
     files:
       - label : 'Home Page Sections'
-        name: 'Home Sections'
+        name: 'HomeSections'
         file: 'data/about.yml'
         fields:
           - {label: Enable, name: enable, widget: boolean}
-          - label: HomeSections
-            name: sections
           - label: 'Section List'
             name: 'item'
             widget: list
