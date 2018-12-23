@@ -1,4 +1,4 @@
-enable: false
+enable: true
 item:
   - description: >-
       HDWIH LLC provides high quality management services.  We will work with
@@ -19,4 +19,5 @@ item:
       clients. We are committed to excellence and creating innovative and
       flexible solutions for our clients.
     image: /static/img/service.png
+    positionright: false
     title: Service
