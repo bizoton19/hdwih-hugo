@@ -21,8 +21,6 @@ item:
     image: /static/img/service.png
     positionright: true
     title: Service
-<<<<<<< HEAD
-    positionRight: true
   - description: >-
         We are dedicated to understanding your business, to being flexible and
         holistic in our approach by responding to our customer’s changing needs so
@@ -46,5 +44,3 @@ item:
 
     image: img/service.png
     title: What we do
-=======
->>>>>>> 3510d88bff0328b72d27de702a7c95496c244ee2
