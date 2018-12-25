@@ -7,8 +7,8 @@ item:
       clients.  HDWIH’s principals bring over 45 years of experience with public
       and private sector.
     image: img/what_we_do.png
-    title: Service
     positionRight: false
+    title: Service
   - description: >-
       We are dedicated to understanding your business, to being flexible and
 
@@ -20,14 +20,24 @@ item:
       with your organization every step of the way to make sure you received the
       services you need.
     image: img/service.png
-    title: What we do
     positionRight: true
+    title: What we do
   - description: >-
       We provide the following: 
 
       service in human resources-based support services in various sectors such
-      as Global Health, Agriculture, Monitoring and Evaluation, and Learning,
-      Staff Augmentation, Field Support, Managerial and Short-Term Surge Capacity.   
+      as:
+
+
+      * Global Health
+
+      * Agriculture
+
+      * Monitoring and Evaluation
+
+      * Learning, Staff Augmentation
+
+      * Field Support, Managerial and Short-Term Surge Capacity  
 
 
       We have over 20 years’ experience working overseas and in fragile
