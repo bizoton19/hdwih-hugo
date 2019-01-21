@@ -23,11 +23,10 @@ item:
     positionRight: true
     title: What we do
   - description: >-
-      We provide the following: 
-
-      service in human resources-based support services in various sectors such
-      as: Global Health, Agriculture, Monitoring and Evaluation, Learning, Staff Augmentation
-      Field Support, Managerial and Short-Term Surge Capacity. 
+      We provide the following: service in human resources-based support
+      services in various sectors such as: Global Health, Agriculture,
+      Monitoring and Evaluation, Learning, Staff Augmentation Field Support,
+      Managerial and Short-Term Surge Capacity. 
 
 
       We have over 20 years’ experience working overseas and in fragile
@@ -38,3 +37,4 @@ item:
     image: /img/adult-brainstorming-business-1181421.jpg
     positionRight: false
     title: Services Provided
+  - {}
