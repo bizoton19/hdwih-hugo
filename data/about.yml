@@ -1,8 +1,9 @@
 enable: true
 item:
   - description: >-
-      _**Awareness**_ leads to _**Innovative**_ and **_Transformational_**
-      Solutions for our clients.
+
+      Awareness leads to Innovative and Transformational Solutions for our
+      Clients.
     image: img/what_we_do.png
     positionRight: false
     title: Vision
@@ -41,7 +42,9 @@ item:
 
       * Institutional Support Services
 
-      * Management  Consulting 
+      * Local Capacity Building
+
+      * Program Management 
 
       * Professional Staffing
 
