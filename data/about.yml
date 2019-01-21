@@ -1,14 +1,11 @@
 enable: true
 item:
-  - description: >
-      Providing good service means taking the time to listen.  Our streamlined
-      human resources delivery responds to client’s needs.  We are committed to
-      excellence and creating innovative and flexible solutions for our
-      clients.  HDWIH’s principals bring over 45 years of experience with public
-      and private sector.
+  - description: >-
+      _**Awareness**_ leads to _**Innovative**_ and **_Transformational_**
+      Solutions for our clients.
     image: img/what_we_do.png
     positionRight: false
-    title: Service
+    title: Vision
   - description: >-
       We are dedicated to understanding your business, to being flexible and
 
@@ -21,19 +18,44 @@ item:
       services you need.
     image: img/service.png
     positionRight: true
-    title: What we do
+    title: Mission
   - description: >-
-      We provide the following: service in human resources-based support
-      services in various sectors such as: Global Health, Agriculture,
-      Monitoring and Evaluation, Learning, Staff Augmentation Field Support,
-      Managerial and Short-Term Surge Capacity. 
+      We have over 20 years’ experience working in the United States and 
+      overseas and in fragile countries such as Côte d'Ivoire,  Mali, Haiti,
+      Rwanda, Burkina Faso, Trinidad and Tobago and Uganda.  In addition, we
+      have extensive experience supporting projects in Afghanistan, Benin,
+      Democratic Republic of Congo, Jordan, and Nigeria.  HDWIH’s principals
+      bring over 45 years of experience with public and private sector.  
 
 
-      We have over 20 years’ experience working overseas and in fragile
-      countries such as Côte d'Ivoire,  Mali, Haiti, Rwanda, Burkina Faso,
-      Trinidad and Tobago and Uganda.  In addition, we have extensive experience
-      supporting projects in Afghanistan, Benin, Democratic Republic of Congo,
-      Jordan, and Nigeria.
+      We provide the following services:
+
+
+      * Administrative Support
+
+      * Administrative Support
+
+      * Coaching and Mentoring
+
+      * Field Support
+
+      * Institutional Support Services
+
+      * Management  Consulting 
+
+      * Professional Staffing
+
+      * Recruitment and Retention
+
+      * Staff Augmentation
+
+      * Short-Term Surge Capacity
+
+      * Temporary Staffing
+
+      * Training 
+
+      * Workforce Planning and Workforce Assessment
     image: /img/adult-brainstorming-business-1181421.jpg
     positionRight: false
     title: Services Provided
