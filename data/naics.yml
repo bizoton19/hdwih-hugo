@@ -1,5 +1,5 @@
-enable: true
 title: North American Industry Classification System (NAICS)
+enable: true
 topTitle: NAICS
 codes:
   - code:
@@ -20,3 +20,6 @@ codes:
   - code:
       description: Professional and Management Development Training
       value: 611430
+  - code:
+      description: 'All Other Professional, Scientific and Technical Services'
+      value: '541990 '
