@@ -9,9 +9,6 @@ codes:
       description: Human Resources Consulting Services
       value: 541612
   - code:
-      description: Other Management Consulting Services
-      value: 541618
-  - code:
       description: Other Scientific and Technical Consulting Services
       value: 541690
   - code:
