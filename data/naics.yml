@@ -1,5 +1,5 @@
-enable: true
 title: North American Industry Classification System (NAICS)
+enable: true
 topTitle: NAICS
 codes:
   - code:
@@ -9,9 +9,6 @@ codes:
       description: Human Resources Consulting Services
       value: 541612
   - code:
-      description: Other Management Consulting Services
-      value: 541618
-  - code:
       description: Other Scientific and Technical Consulting Services
       value: 541690
   - code:
@@ -20,3 +17,6 @@ codes:
   - code:
       description: Professional and Management Development Training
       value: 611430
+  - code:
+      description: 'All Other Professional, Scientific and Technical Services'
+      value: '541990 '
